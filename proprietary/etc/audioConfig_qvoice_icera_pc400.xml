@@ -395,7 +395,7 @@
     <elecCalParam><false/></elecCalParam>
     <transCalParam><false/></transCalParam>
     <internalSpeaker><false/></internalSpeaker>
-    <txAdjustEain>4</txAdjustGain>
+    <txAdjustGain>4</txAdjustGain>
     <rxAdjustGain>0</rxAdjustGain>
     <audioLoop><undefLoop/></audioLoop>
     <isAecEnabled><true/></isAecEnabled>
