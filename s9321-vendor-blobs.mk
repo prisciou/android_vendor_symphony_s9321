@@ -77,7 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/wiko/s9321/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
     vendor/wiko/s9321/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
     vendor/wiko/s9321/proprietary/lib/libnvopt_dvm.so:system/lib/libnvopt_dvm.so \
-    veldor/wiko/s9321/proprietary/lib/libnvos.so:system/lib/libnvos.so \
+    vendor/wiko/s9321/proprietary/lib/libnvos.so:system/lib/libnvos.so \
     vendor/wiko/s9321/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
     vendor/wiko/s9321/proprietary/lib/libnvremoteevtmgr.so:system/lib/libnvremoteevtmgr.so \
     vendor/wiko/s9321/proprietary/lib/libnvremotell.so:system/lib/libnvremotell.so \
