@@ -191,7 +191,7 @@ PRODUCT_COPY_FILES += \
     vendor/wiko/s9321/proprietary/lib/librm31080.so:system/lib/librm31080.so \
     vendor/wiko/s9321/proprietary/lib/libwfd_source.so:system/lib/libwfd_source.so \
     vendor/wiko/s9321/proprietary/lib/libwfd_sink.so:system/lib/libwfd_sink.so \
-    vendor-wiko/s9321/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
+    vendor/wiko/s9321/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
     vendor/wiko/s9321/proprietary/framework/com.nvidia.graphics.jar:system/framework/com.nvidia.graphics.jar \
     vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.balancedpower.xml:system/etc/permissions/com.nvidia.balancedpower.xml \
     vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.graphics.xml:system/etc/permissions/com.nvidia.graphics.xml \
