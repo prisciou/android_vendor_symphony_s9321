@@ -103,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/wiko/s9321/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/wiko/s9321/proprietary/lib/hw/sensors.ceres.so:system/lib/hw/sensors.ceres.so \
     vendor/wiko/s9321/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
-    vendor/wiko/s9321/proprietary/lib/hw/nfc.tegra.so:system/lib/hw/nfc.tegra.so \
     vendor/wiko/s9321/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
     vendor/wiko/s9321/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/wiko/s9321/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
