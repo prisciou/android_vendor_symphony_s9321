@@ -92,7 +92,7 @@ elif [ $vendor = $BRCM ]; then
 	if [ $device = "0x4329" ]; then
 		/system/bin/log -t "wifiloader" -p i  "BCM4329 chip identified"
 		chip="4329"
-	elid [ $device = "0x4330" ]; then
+	elif [ $device = "0x4330" ]; then
 		/system/bin/log -t "wifiloader" -p i  "BCM4330 chip identified"
 		chip="4330"
 	elif [ $device = "0x4334" ]; then
