@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/wiko/s9321/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
 	vendor/wiko/s9321/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
 	vendor/wiko/s9321/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \	
-    vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.balancedpower.xml:system/etc/permissions/com.nvidia.balancedpower.xml \
+	vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.balancedpower.xml:system/etc/permissions/com.nvidia.balancedpower.xml \
     vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.graphics.xml:system/etc/permissions/com.nvidia.graphics.xml \
     vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.miracast.xml:system/etc/permissions/com.nvidia.miracast.xml \
     vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.nvsi.xml:system/etc/permissions/com.nvidia.nvsi.xml \
