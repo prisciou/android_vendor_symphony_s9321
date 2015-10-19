@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/wiko/s9321/proprietary/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
     vendor/wiko/s9321/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/wiko/s9321/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
+	vendor/wiko/s9321/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/wiko/s9321/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/wiko/s9321/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/wiko/s9321/proprietary/lib/libgov_combinator.so:system/lib/libgov_combinator.so \
@@ -66,7 +67,7 @@ PRODUCT_COPY_FILES += \
     vendor/wiko/s9321/proprietary/lib/libnvmmlite_audio.so:system/lib/libnvmmlite_audio.so \
     vendor/wiko/s9321/proprietary/lib/libnvmmlite_image.so:system/lib/libnvmmlite_image.so \
     vendor/wiko/s9321/proprietary/lib/libnvmmlite_utils.so:system/lib/libnvmmlite_utils.so \
-    vendor/wiko/s9321/proprietary/lib/libnvmmlite_video.so:system-lib/libnvmmlite_video.so \
+    vendor/wiko/s9321/proprietary/lib/libnvmmlite_video.so:system/lib/libnvmmlite_video.so \
     vendor/wiko/s9321/proprietary/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
     vendor/wiko/s9321/proprietary/lib/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \
     vendor/wiko/s9321/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
@@ -95,12 +96,15 @@ PRODUCT_COPY_FILES += \
     vendor/wiko/s9321/proprietary/lib/libnvcpl.so:system/lib/libnvcpl.so \
     vendor/wiko/s9321/proprietary/lib/libjni_nvremoteprotopkg.so:system/lib/libjni_nvremoteprotopkg.so \
     vendor/wiko/s9321/proprietary/lib/libjni_nvremote.so:system/lib/libjni_nvremote.so \
-    vendor/wiko/s9321/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
-    vendor/wiko/s9321/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+	vendor/wiko/s9321/proprietary/lib/libpowerservice.so:system/lib/libpowerservice.so \
+	vendor/wiko/s9321/proprietary/lib/libpowerservice_client.so:system/lib/libpowerservice_client.so \
+	vendor/wiko/s9321/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/wiko/s9321/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-    vendor/wiko/s9321/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+    vendor/wiko/s9321/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
+    vendor/wiko/s9321/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \	
     vendor/wiko/s9321/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/wiko/s9321/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
+    vendor/wiko/s9321/proprietary/lib/hw/lights.ceres.so:system/lib/hw/lights.ceres.so \	
     vendor/wiko/s9321/proprietary/lib/hw/sensors.ceres.so:system/lib/hw/sensors.ceres.so \
     vendor/wiko/s9321/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/wiko/s9321/proprietary/lib/hw/ts.default.so:system/lib/hw/ts.default.so \
@@ -131,6 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/wiko/s9321/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/wiko/s9321/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/wiko/s9321/proprietary/etc/nvram_rev4.txt:system/etc/nvram_rev4.txt \
+	vendor/wiko/s9321/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/wiko/s9321/proprietary/bin/wifi_loader.sh:system/bin/wifi_loader.sh \
     vendor/wiko/s9321/proprietary/bin/bt_mac_copy.sh:system/bin/bt_mac_copy.sh \
     vendor/wiko/s9321/proprietary/bin/btmacwriter:system/bin/btmacwriter \
@@ -191,12 +196,21 @@ PRODUCT_COPY_FILES += \
     vendor/wiko/s9321/proprietary/lib/libwfd_source.so:system/lib/libwfd_source.so \
     vendor/wiko/s9321/proprietary/lib/libwfd_sink.so:system/lib/libwfd_sink.so \
     vendor/wiko/s9321/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
+	vendor/wiko/s9321/proprietary/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
+	vendor/wiko/s9321/proprietary/framework/com.google.android.media.effects.jar:system/framework/com.google.android.media.effects.jar \
+	vendor/wiko/s9321/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \	
     vendor/wiko/s9321/proprietary/framework/com.nvidia.graphics.jar:system/framework/com.nvidia.graphics.jar \
+	vendor/wiko/s9321/proprietary/etc/permissions/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
+	vendor/wiko/s9321/proprietary/etc/permissions/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml \
+    vendor/wiko/s9321/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
+	vendor/wiko/s9321/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
+	vendor/wiko/s9321/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \	
     vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.balancedpower.xml:system/etc/permissions/com.nvidia.balancedpower.xml \
     vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.graphics.xml:system/etc/permissions/com.nvidia.graphics.xml \
     vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.miracast.xml:system/etc/permissions/com.nvidia.miracast.xml \
     vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.nvsi.xml:system/etc/permissions/com.nvidia.nvsi.xml \
     vendor/wiko/s9321/proprietary/etc/permissions/com.nvidia.nvstereoutils.xml:system/etc/permissions/com.nvidia.nvstereoutils.xml \
+	vendor/wiko/s9321/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
     vendor/wiko/s9321/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/wiko/s9321/proprietary/etc/bluetooth/bdaddr:system/etc/bluetooth/bdaddr \
     vendor/wiko/s9321/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
@@ -208,10 +222,13 @@ PRODUCT_COPY_FILES += \
     vendor/wiko/s9321/proprietary/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
     vendor/wiko/s9321/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/wiko/s9321/proprietary/etc/nvaudio_conf.xml:system/etc/nvaudio_conf.xml \
+	vendor/wiko/s9321/proprietary/etc/nvaudio_conf_ftm.xml:system/etc/nvaudio_conf_ftm.xml \
     vendor/wiko/s9321/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
+	vendor/wiko/s9321/proprietary/etc/voicemail-conf.xml:system/etc/voicemail-conf.xml \
     vendor/wiko/s9321/proprietary/usr/idc/s320_tp.idc:system/usr/idc/s320_tp.idc \
     vendor/wiko/s9321/proprietary/usr/idc/sensor00fn11.idc:system/usr/idc/sensor00fn11.idc \
     vendor/wiko/s9321/proprietary/usr/idc/raydium_ts.idc:system/usr/idc/raydium_ts.idc \
+	vendor/wiko/s9321/proprietary/usr/keychars/tegra-max98090_Headphone_Jack.kcm:system/usr/keychars/tegra-max98090_Headphone_Jack.kcm \
     vendor/wiko/s9321/proprietary/usr/keylayout/tegra-max98090_Headphone_Jack.kl:system/usr/keylayout/tegra-max98090_Headphone_Jack.kl \
     vendor/wiko/s9321/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     vendor/wiko/s9321/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so

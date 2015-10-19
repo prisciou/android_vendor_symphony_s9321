@@ -1,0 +1,5 @@
+<voicemail>
+  <voicemail numeric='20801' vmnumber='888' carrier='orange'/>
+  <voicemail numeric='20810' vmnumber='123' carrier='sfr'/>
+  <voicemail numeric='20815' vmnumber='666' carrier='free'/>
+</voicemail>
